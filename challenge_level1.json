@@ -1,0 +1,45 @@
+{
+  "level": 1,
+  "description": "Recover the glyph permutation given the key (minus permutation) and ciphertext",
+  "known": {
+    "spiral_params": {
+      "c1": 0.0,
+      "c2": 2.442977767247374,
+      "c3": 4.351129660020871,
+      "c4": -0.0815720276218495,
+      "c5": 0.0021197726145335037,
+      "n_turns": 9.783133969724346,
+      "orbital_radius": 36.499573808988316,
+      "d": 28.398705349360352,
+      "u_min": 0.0,
+      "u_max": 61.469243616741515
+    },
+    "runtime_partial": {
+      "units_turn": 2.2,
+      "rad_turn": 5.5,
+      "ascii_rad_turn": 3.8,
+      "node_spacing": 0.1,
+      "direction_mode": 7,
+      "latch_mode": 9,
+      "rewrap_reset_mode": 4,
+      "ascii_count": 128,
+      "pi_offset": 80146
+    },
+    "state": {
+      "rotation": 0.0,
+      "counter_rotation": 0.0,
+      "anchor_base_theta": 1.5707963267948966,
+      "s_pos": 0.0,
+      "knob_angle": 1.5707963267948966
+    },
+    "turns": [
+      0.260973433359037,
+      1.6121053832181949,
+      1.9423472622709683,
+      4.108390766075254,
+      2.5343176412938773
+    ],
+    "plaintext_length": 5
+  },
+  "hint": "The plaintext is a common English greeting in uppercase"
+}
