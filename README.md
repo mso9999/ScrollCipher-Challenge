@@ -104,6 +104,15 @@ particularly interested in:
 - Whether it generalises beyond the specific challenge instance
 - Any structural weaknesses identified in the cipher
 
+## Formal Verification (Lean 4)
+
+Key security lemmas from the paper have been formally verified in the
+Lean 4 proof assistant with Mathlib. See [`lean4-proofs/`](lean4-proofs/)
+for proof scripts and build instructions. Verified results include:
+- Markov mixing convergence bounds (Proposition 1)
+- Correctness under bounded precision (Theorem 2)
+- IND-CPA game-hopping advantage bound (Theorem 1)
+
 ## Files
 
 | File | Description |
@@ -113,6 +122,7 @@ particularly interested in:
 | `challenge_level1.json` | Level 1 challenge (easy — permutation recovery) |
 | `challenge_level2.json` | Level 2 challenge (medium — full recovery, 20 chars) |
 | `challenge_level3.json` | Level 3 challenge (hard — full recovery, 100 chars) |
+| `lean4-proofs/` | Lean 4 formal verification of key lemmas |
 | `requirements.txt` | Python dependencies |
 
 ## License
